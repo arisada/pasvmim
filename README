@@ -1,0 +1,17 @@
+================
+
+pasvmim
+
+Aris Adamantiadis
+================
+
+A simple FTP file stealer I wrote in 2003. This program exploits the lack of randomness
+in the opening of new ports in the context of passive FTP sessions, and the lack of authentication
+on the DATA tcp stream.
+Basically, what it does is to check if the ports on an FTP server are open sequentially and if so tries
+to predict the new ports and steal the files.
+
+I wonder if it still works on modern services. I do not claim it's good code, it's 10 years old !
+For what it's worth,
+
+Aris
