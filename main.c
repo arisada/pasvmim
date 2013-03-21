@@ -1,3 +1,9 @@
+/**
+
+pasvmim, a simple FTP file stealer.
+Aris Adamantiadis, 2003
+*/
+
 #include <stdio.h>
 #include <getopt.h>
 #include <string.h>
