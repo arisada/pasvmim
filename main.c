@@ -151,10 +151,10 @@ int main(int argc, char **argv)
     }
     if (ports[0] + 2 == ports[2])
 	printf
-	    ("*** the ports are choosed in a linear manner... continuing exploit\n");
+	    ("*** the ports are chosen in a linear manner... continuing exploit\n");
     else {
 	printf
-	    ("Exploit didn't discover linearely choosed ports... the server may not be vulnerable\n");
+	    ("Exploit didn't discover linearely chosen ports... the server may not be vulnerable\n");
 	if (!ignore)
 	    return 0;
     }
